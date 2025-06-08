@@ -8,11 +8,12 @@ import DetailsSection from "@/components/DetailsSection";
 import ImageShowcaseSection from "@/components/ImageShowcaseSection";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
+import HumanIntuitionSection from "@/components/HumanIntuitionSection";
+import HowItWorks from "@/components/HowItWorks";
 import Newsletter from "@/components/Newsletter";
 import MadeByHumans from "@/components/MadeByHumans";
 import Footer from "@/components/Footer";
-import HumanIntuitionSection from "@/components/HumanIntuitionSection";
-import HowItWorks from "@/components/HowItWorks";
+
 
 const Index = () => {
   // Initialize intersection observer to detect when elements enter viewport
@@ -71,10 +72,11 @@ const Index = () => {
         <ImageShowcaseSection />
         <Features />
         <Testimonials />
-        <Newsletter />
-        <MadeByHumans />
         <HowItWorks />
         <HumanIntuitionSection />
+        <Newsletter />
+        <MadeByHumans />
+        
       </main>
       <Footer />
     </div>
